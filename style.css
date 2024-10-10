@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@700&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #25272E;
+}
+
+.score-board{
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 200px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-size: 46px;
+    padding: 15px 20px;
+    font-family: 'Asap',sans-serif;
+    position: relative;
+}
+
+
+header{
+    /* margin: 30px; */
+    background: white;
+    padding: 30px;
+    color: #25272E;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    font-size:60px;
+}
+
+.green-glow{
+    border: 4px solid #4dcc7d;
+    box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+}
+
+.grey-glow{
+    border: 4px solid  rgb(212, 212, 94);
+    box-shadow: 0 0 10px rgb(112, 112, 16);
+}
+
+.badge{
+    background: #E25840;
+    color: white;
+    font-size: 14px;
+    padding: 2px 10px;
+    font-family:'Asap',sans-serif;
+}
+
+#user-label{
+    position: absolute;
+    top: 33px;
+    left: -25px;
+}
+
+
+#computer-label{
+    position: absolute;
+    top: 33px;
+    right: -25px;
+}
+
+
+/* header:h1{
+    color: #25272E;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+} */
+
+
+.result{
+    font-size: 40px;
+    color: white;
+}
+
+.result p{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Anas',sans-serif;
+}
+
+.choices{
+  text-align: center;
+  margin-top: 50px;
+  /* mix-blend-mode: color-burn; */
+}
+
+.choice{
+    border: 4px solid white;
+    display:inline-block;
+    padding: 10px;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: darkslategray;
+}
+
+#action-message{
+    text-align: center;
+    color: white;
+    font-family: 'Asap',sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top:20px;
+}
